@@ -1,0 +1,14 @@
+PODS:
+  - SUNetworkActivityIndicator (0.0.1)
+
+DEPENDENCIES:
+  - SUNetworkActivityIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  SUNetworkActivityIndicator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SUNetworkActivityIndicator: cc88190cbd69627df6d79ee41b902c013557d38f
+
+COCOAPODS: 0.39.0
