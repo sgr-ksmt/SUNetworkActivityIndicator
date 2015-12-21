@@ -1,5 +1,9 @@
 # SUNetworkActivityIndicator
 
+[![Version](https://img.shields.io/cocoapods/v/SUNetworkActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/SUNetworkActivityIndicator)
+[![License](https://img.shields.io/cocoapods/l/SUNetworkActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/SUNetworkActivityIndicator)
+[![Platform](https://img.shields.io/cocoapods/p/SUNetworkActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/SUNetworkActivityIndicator)
+
 ## Todo
 
 - [ ] Add documentation to source code.
