@@ -5,10 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/SUNetworkActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/SUNetworkActivityIndicator)
 [![Platform](https://img.shields.io/cocoapods/p/SUNetworkActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/SUNetworkActivityIndicator)
 
-## Todo
-
-- [ ] Add documentation to source code.
-
 ## Features
 - [x] Easy active/inactive
 - [x] Multiple management of indicator's state
