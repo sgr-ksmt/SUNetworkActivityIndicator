@@ -6,11 +6,14 @@
 import Foundation
 import UIKit
 
-/// Notification name for `activeCount` changed.
-///
-/// Contains `activeCount` in notification.object as `Int`
+/**
+ Notification name for `activeCount` changed.
+
+ Contains `activeCount` in notification.object as `Int`
+ */
 public let NetworkActivityIndicatorActiveCountChangedNotification = "ActiveCountChanged"
 
+/// NetworkActivityIndicator
 public class NetworkActivityIndicator {
   
   /// Singleton: shared instance (private var)
@@ -22,16 +25,17 @@ public class NetworkActivityIndicator {
     DISPATCH_QUEUE_SERIAL
   )
   
-  /// ActiveCount
-  ///
-  /// If count is above 0,
-  ///
-  /// ```
-  /// UIApplication.sharedApplication().networkActivityIndicatorVisible
-  /// ```
-  ///
-  /// is true, else false.
-  ///
+  /**
+   ActiveCount
+  
+   If count is above 0,
+  
+   ```
+   UIApplication.sharedApplication().networkActivityIndicatorVisible
+   ```
+  
+   is true, else false.
+  */
   private(set) public var activeCount: Int {
     didSet {
       UIApplication.sharedApplication()
