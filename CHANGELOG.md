@@ -1,5 +1,7 @@
 # CHANGE LOG
 
+- Update to Swift 5
+
 ## 0.1.2
 - Add documentation in source code.
 

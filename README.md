@@ -60,8 +60,8 @@ class SomeClass {
 
 ```swift
 // usual usage
-NetworkActivityIndicator.shared().start()
-NetworkActivityIndicator.shared().end()
+NetworkActivityIndicator.shared.start()
+NetworkActivityIndicator.shared.end()
 
 class SomeClass {
   init() {
@@ -73,22 +73,22 @@ class SomeClass {
   }
 
   func doConnection1() {
-    NetworkActivityIndicator.shared().start()
+    NetworkActivityIndicator.shared.start()
     // some async connection
   }
 
   func endConnection1() {
-    NetworkActivityIndicator.shared().end()
+    NetworkActivityIndicator.shared.end()
     // if `activeCount` is above 0, remain indicator visible.
   }
 
   func doConnection2() {
-    NetworkActivityIndicator.shared().start()
+    NetworkActivityIndicator.shared.start()
     // some async connection
   }
 
   func endConnection2() {
-    NetworkActivityIndicator.shared().end()
+    NetworkActivityIndicator.shared.end()
     // if `activeCount` is above 0, remain indicator visible.
   }
 }
@@ -99,7 +99,7 @@ class SomeClass {
 
 ## Requirements
 - iOS 8.0+
-- Xcode 7.0+(Swift 2+)
+- Xcode 10.2+ / Swift 5+ (See version 0.1 for Swift 2)
 
 ## Installation and Setup
 
