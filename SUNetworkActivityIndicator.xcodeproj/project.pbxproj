@@ -12,6 +12,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36FF15C325DB9316001014C5 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		36FF15C425DB9316001014C5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		36FF15C525DB9316001014C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		36FF15C625DB9316001014C5 /* SUNetworkActivityIndicator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SUNetworkActivityIndicator.podspec; sourceTree = "<group>"; };
 		4D6560591C22E22800DBF664 /* SUNetworkActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SUNetworkActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D65605C1C22E22800DBF664 /* SUNetworkActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUNetworkActivityIndicator.h; sourceTree = "<group>"; };
 		4D65605E1C22E22800DBF664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +36,10 @@
 		4D65604F1C22E22800DBF664 = {
 			isa = PBXGroup;
 			children = (
+				36FF15C525DB9316001014C5 /* README.md */,
+				36FF15C325DB9316001014C5 /* CHANGELOG.md */,
+				36FF15C625DB9316001014C5 /* SUNetworkActivityIndicator.podspec */,
+				36FF15C425DB9316001014C5 /* LICENSE */,
 				4D65605B1C22E22800DBF664 /* SUNetworkActivityIndicator */,
 				4D65605A1C22E22800DBF664 /* Products */,
 			);
@@ -107,6 +115,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4D65604F1C22E22800DBF664;
@@ -183,6 +192,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -223,6 +233,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
